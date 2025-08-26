@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+body {
+    background-color: #FFD1DF;
+    color: #FC6C85;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: #F88379;
+}
+.about-section {
+    padding: 80px 20px;
+}
+h1, h2, h3 {
+    color: #ff6392;
+}
+h1 {
+    text-decoration: underline;
+}
+footer {
+    background-color: #A94064;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+span {
+    opacity: 0;
+    display: inline-block;
+    animation: fade 0.5s forwards;
+    font-size: 5.0rem;
+    text-align: center;
+}
+span:nth-child(1){ animation-delay: 0.1s }
+span:nth-child(2){ animation-delay: 0.3s }
+span:nth-child(3){ animation-delay: 0.5s }
+span:nth-child(4){ animation-delay: 0.7s }
+span:nth-child(5){ animation-delay: 0.9s }
+span:nth-child(6){ animation-delay: 1.1s }
+
+@keyframes fade {
+    to { opacity: 1; transform: translateY(-10px); }
+}
+  </style>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand">Hannah's Portfolio</a>
+      </div>
+  </nav>
+
+  
+  <div class="text-center my-4">
+      <span>H</span><span>A</span><span>N</span><span>N</span><span>A</span><span>H</span>
+  </div>
+
+  
+  <section class="about-section container">
+      <div class="row align-items-center">
+          <div class="col-md-5">
+              <img src="Hannah.jpg" class="img-fluid rounded-circle" alt="Hannah's Photo">
+          </div>
+          <div class="col-md-7">
+              <h1>About Me</h1>
+              <h2>I'm a High School Student</h2>
+              <h3>Future Cybersecurity Major 🔐</h3>
+              <p class="mt-4">I'm passionate about technology, coding, and cybersecurity. I aim to pursue a major in cybersecurity to protect data, networks, and systems from threats. My interests include ethical hacking, problem-solving, and building secure applications. Currently, I'm learning HTML, CSS, JavaScript, and soon to be Python to strengthen my foundation in tech.</p>
+          </div>
+      </div>
+  </section>
+
+  
+  <section class="portfolio container py-5">
+      <h2 class="text-center mb-4">✨ My Projects ✨</h2>
+      <div class="row g-4">
+          
+          <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                  
+                  <div class="card-body">
+                      <h5 class="card-title">Restaurant Website</h5>
+                      <p class="card-text">A responsive website for a restaurant with menu, reservations, and a photo gallery.</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                  
+                  <div class="card-body">
+                      <h5 class="card-title">Cybersecurity Blog</h5>
+                      <p class="card-text">A blog where I share cybersecurity tips, tutorials, and awareness about online safety.</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                  
+                  <div class="card-body">
+                      <h5 class="card-title">Portfolio Website</h5>
+                      <p class="card-text">My personal portfolio showcasing my skills, achievements, and projects in technology.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+  <div class="text-center mb-4">
+      <a href="c:\Users\hanna\OneDrive\Desktop\After class projects\Skills2.html" class="btn btn-danger btn-lg">
+       ❤️ Next Page ❤️
+      </a>
+  </div>
+
+  
+  <footer>
+      <p>🌸 Made with love & dreams of Cybersecurity 💚 © 2025 🌸</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
